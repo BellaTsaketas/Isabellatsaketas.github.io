@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Spring Quest</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Linking CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- Custom CSS for the gallery -->
+  <style> 
+  .bio-text {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 15px;
+  }
+  .bio-text p1{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 15px;
+  }
+  @media (min-width: 768px) {
+  .bio-text {
+    font-size: 22px; /* Adjust the font size for smaller screens */
+  }
+}
+.hero-text {
+  top: 17rem;
+}
+  </style>
+</head>
+  
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    <div class="container">
+     <!--<a class="navbar-brand" href="index.html">
+            <img src="images/bellalogo.gif" alt="Isabella Tsaketas" class="brand-gif">
+          </a> --> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+  <section class="bgimage" id="home" style="height:50vh; background: url('images/heroimage9.png'); background-size:cover; position:relative;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+          <h2 class="hero_title">The Spring Quest</h2>
+          <p class="hero_desc">Rescore, Foley and Sound Design</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="bio" class="bio-text mt-5">
+    <div class="container">
+      <p>For the short film The Spring Quest, I rescoured the animation and created new sound design, aiming to create an ethereal and immersive audio experience using instruments such as the flute and Celtic harp. Inspired by John Powell's composition work, I assigned specific instruments to characters, maintaining a consistent thematic representation throughout the piece. This approach included call-and-response rhythms to highlight character interactions, crafting an engaging and dynamic auditory experience that harmoniously supported the film's visuals. To enhance the grandeur of the score, I modulated the piece from C major Pentatonic to A Major, adding depth and richness to the overall sound.
+      </p>
+      <p1>
+        Short film courtesy of Blender Animation Studio: Original Film https://www.youtube.com/watch?v=WhWc3b3KhnY&t=0s&ab_channel=BlenderStudio
+      </p1>
+    </div>
+    
+    <section>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/iNGgFt5Jv88" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <script src="script/script.js"></script>
+</body>  
+  </section> 
+  
+
+  <!-- footer section-->
+ <footer id="footer">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <!-- Name and Email -->
+        <div class="footer-info">
+            <p>&#169;Isabella Tsaketas 2024</p>
+            <p>Email Me:<a href="mailto:isabella@example.com">itsaketas@gmail.com</a></p>
+        </div>
+        <!-- Social media icons -->
+        <div class="social-icons">
+            <a href="https://www.instagram.com/isabellatsaketasdesign/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/isabella-tsaketas" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+  </footer>
+
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+</body>
+</html>
